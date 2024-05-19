@@ -82,7 +82,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
-* [sod][611] -  An Embedded Computer Vision & Machine Learning Library [``GPL-3``][GPL-3]
+* [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Benchmarking ##
 
@@ -256,7 +256,7 @@ Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
-* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT]  
+* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT] 
 * [EJDB2][568] - Embeddable JSON Database engine. [``MIT``][MIT]
 * [Groonga][524] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Minimalistic client library for Redis.
@@ -277,6 +277,10 @@ Databases and data stores with C APIs.
   transactional NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [FlashDB][703] - An ultra-lightweight database that supports key-value and 
+  time series data. [``Apache-2.0``][Apache-2.0]
+* [TDengine][704] - High-performance, cloud native time-series database. 
+  [``AGPL-3.0-only``][AGPL-3.0-only]
 
 ## Data Structures ##
 
@@ -494,6 +498,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
 * [microui][616] - Tiny immediate-mode UI library written in portable ANSI C. [```MIT```][MIT]
+* [nappgui][705] - Professional SDK to build cross-platform desktop applications using C. [``MIT``][MIT]
 * [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [``Zlib``][Zlib]
@@ -1153,6 +1158,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 * [Metalang99][603] - Full-blown preprocessor metaprogramming. [``MIT``][MIT]
 * [Datatype99][604] - Algebraic data types for C99. [``MIT``][MIT]
+* [EasyLogger][706] - An ultra-lightweight, high-performance C/C++ log library. [``MIT``][MIT]
 
 ## Web Frameworks ##
 
@@ -1837,3 +1843,8 @@ support for C.
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 [701]: https://wiki.gnome.org/Projects/GLib
 [702]: https://duckdb.org/
+[703]: https://github.com/armink/FlashDB
+[704]: https://github.com/taosdata/TDengine
+[705]: https://nappgui.com/
+[706]: https://github.com/armink/EasyLogger
+
